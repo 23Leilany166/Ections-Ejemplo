@@ -29,15 +29,14 @@ class Person:
         """
         return f"{self.first_name} {self.last_name}".title()   
 
-
 # Ejemplo de uso (opcional, para pruebas locales)
-if name == "main":
+if __name__ == "__main__":
     # Crear personas de ejemplo
     p1 = Person("juan", "perez")
     p2 = Person("MARIA", "LOPEZ")
     p3 = Person("cArLoS", "gOnZaLeZ")
     
-    # Imprimir usando str automáticamente
+    # Imprimir usando __str__ automáticamente
     print(p1)  # Juan Perez
     print(p2)  # Maria Lopez
     print(p3)  # Carlos Gonzalez
