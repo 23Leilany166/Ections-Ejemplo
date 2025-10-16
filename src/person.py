@@ -13,10 +13,9 @@ class Person:
         Args:
             first_name (str): El nombre de la persona
             last_name (str): El apellido de la persona
-   
         """
         
-
+    
     def __str__(self):
         """
         Retorna una representación en string de la persona.
@@ -28,6 +27,8 @@ class Person:
             str: Nombre completo capitalizado
         """
         
+
+
 # Ejemplo de uso (opcional, para pruebas locales)
 if __name__ == "__main__":
     # Crear personas de ejemplo
