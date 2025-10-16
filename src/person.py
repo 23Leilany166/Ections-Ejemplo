@@ -14,7 +14,9 @@ class Person:
             first_name (str): El nombre de la persona
             last_name (str): El apellido de la persona
         """
-        
+
+        first_name (str) = first_name
+        last_name (str) = last_name
     
     def __str__(self):
         """
@@ -26,6 +28,8 @@ class Person:
         Returns:
             str: Nombre completo capitalizado
         """
+
+        return f"{self.first_name}{self.last_name}".title()
         
 
 
